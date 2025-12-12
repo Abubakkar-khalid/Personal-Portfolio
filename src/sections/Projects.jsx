@@ -22,11 +22,7 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectModal from "../components/ProjectModal";
 import deepArt from "../assets/DeepArt.jpg";
 
-// Gym Images
-import gym1 from "../assets/Gym-Images/Gym-1.jpg";
-import gym2 from "../assets/Gym-Images/Gym-2.png";
-import gym3 from "../assets/Gym-Images/Gym-3.png";
-import gym4 from "../assets/Gym-Images/Gym-4.png";
+
 // CineFilms Images
 import cineFilms1 from "../assets/CineFilms-Images/CineFilms-1.png";
 import cineFilms2 from "../assets/CineFilms-Images/CineFilms-2.png";
@@ -37,6 +33,14 @@ import teamsCare1 from "../assets/Teams-Care/TeamsCare-1.png";
 import teamsCare2 from "../assets/Teams-Care/TeamsCare-2.png";
 import teamsCare3 from "../assets/Teams-Care/TeamsCare-3.png";
 import teamsCare4 from "../assets/Teams-Care/TeamsCare-4.png";
+
+// Portfolio Images
+ import img1 from "../assets/portfolio/img1.png";
+ import img2 from "../assets/portfolio/img2.png";
+ import img3 from "../assets/portfolio/img3.png";
+ import img4 from "../assets/portfolio/img4.png";
+
+
 
 
 
@@ -92,15 +96,15 @@ const Projects = () => {
       githubLink: "https://github.com/Abubakkar-khalid/CineFilms",
     },
     {
-      title: "Gym Landing Page",
-      image: gym1,
-      gallery: [gym1, gym2, gym3, gym4],
+      title: "Client Portfolio",
+      image: img1,
+      gallery: [img1, img2, img3, img4],
       category: "Landing Page",
       tags: ["React", "JavaScript", "Tailwind", "Vite"],
       description:
-        "Modern, high-performance landing page for a SaaS product with smooth scroll animations and responsive design.",
-      demoLink: "#",
-      githubLink: "#",
+        "I design and develop fully custom personal portfolios tailored to the client’s profession, style, and branding.",
+      demoLink: "https://naveedrehman.netlify.app/services",
+      githubLink: "https://github.com/Abubakkar-khalid/Portfolio_Project2",
     },
   ];
 
