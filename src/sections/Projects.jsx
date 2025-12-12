@@ -77,35 +77,24 @@ const Projects = () => {
       ],
       description:
         "A comprehensive admin dashboard for managing products, orders, and analytics with dark mode support.",
-      demoLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "DeepArt Landing Page",
-      image: deepArt,
-      gallery: [deepArt, deepArt, deepArt, deepArt],
-      category: "Landing Page",
-      tags: ["React", "Framer Motion", "Vite", "Tailwind"],
-      description:
-        "Modern, high-performance landing page for a SaaS product with smooth scroll animations and responsive design.",
-      demoLink: "#",
-      githubLink: "#",
-    },
-    {
-      title: "Gym Landing Page",
-      image: gym1,
-      gallery: [gym1, gym2, gym3, gym4],
-      category: "Landing Page",
-      tags: ["React", "JavaScript", "Tailwind", "Vite"],
-      description:
-        "Modern, high-performance landing page for a SaaS product with smooth scroll animations and responsive design.",
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://cms-dashboard-frontend-development.vercel.app/",
+      githubLink: "https://github.com/Abubakkar-khalid/CMS-Dashboard-Frontend",
     },
     {
       title: "CineFilms Landing Page",
       image: cineFilms1,
       gallery: [cineFilms1, cineFilms2, cineFilms3, cineFilms4],
+      category: "Landing Page",
+      tags: ["React", "JavaScript", "Tailwind", "Vite"],
+      description:
+        "Modern, high-performance landing page for a SaaS product with smooth scroll animations and responsive design.",
+      demoLink: "https://cine-films.vercel.app/",
+      githubLink: "https://github.com/Abubakkar-khalid/CineFilms",
+    },
+    {
+      title: "Gym Landing Page",
+      image: gym1,
+      gallery: [gym1, gym2, gym3, gym4],
       category: "Landing Page",
       tags: ["React", "JavaScript", "Tailwind", "Vite"],
       description:
